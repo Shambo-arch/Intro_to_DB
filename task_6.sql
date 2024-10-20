@@ -15,7 +15,7 @@ def insert_customers():
 
             # SQL query to insert data into the Customers table
             insert_query = """
-                INSERT INTO Customers (customer_id, customer_name, email, address)
+                INSERT INTO customer (customer_id, customer_name, email, address)
                 VALUES (%s, %s, %s, %s);
             """
 
