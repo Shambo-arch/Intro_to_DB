@@ -7,5 +7,5 @@ import mysql.connector connection = mysql.connector.connect(
     1,
     "Cole Baidoo",
     "cbaidoo@sandtech.com",
-    "123 Happiness Ave"
+    "123 Happiness Ave."
 ) cursor.execute(sql, val) cursor.commit() print(mycursor.rowcount, "record(s) inserted.") cursor.close() connection.close()
